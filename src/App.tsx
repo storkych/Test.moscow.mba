@@ -78,7 +78,7 @@ function App() {
   return (
       <div className="min-h-screen font-styrene">
         <div className="container mx-auto px-4 py-12 max-w-6xl">
-          <h1 className="text-3xl font-bold mb-20 text-center">Специализированные дисциплины</h1>
+          <h1 className="text-2xl md:text-3xl font-bold mb-20 text-center">Специализированные дисциплины</h1>
 
           {programs.length === 0 ? (
               <div className="text-xl text-center text-gray-500">Нет доступных программ для отображения</div>
