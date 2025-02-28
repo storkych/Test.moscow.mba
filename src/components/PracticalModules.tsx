@@ -3,7 +3,7 @@ import React from 'react';
 const PracticalModules: React.FC = () => {
     return (
         <div
-            className="relative bg-[#FF3535] text-white p-8 flex-grow min-h-full mb-8"
+            className="relative bg-[#FF3535] text-white p-8 flex-grow md:min-h-full mb-8"
             style={{ clipPath: 'polygon(0 0, calc(100% - 43px) 0, 100% 43px, 100% 100%, 0 100%)' }}
         >
             <h2 className="text-2xl font-bold mb-4">Практические модули</h2>
